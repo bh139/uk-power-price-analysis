@@ -38,7 +38,6 @@ The two-month maximum was £560.81/MWh at 19:30 on 23 June — and 9 of the 10 h
 - Two months of data from one summer period — seasonal patterns (e.g. winter demand, different solar output) aren't captured
 - No demand data included yet; adding it would allow renewable supply and demand — and potential one-off demand events like major sporting fixtures — to be tested as separate, comparable drivers rather than inferring demand from time of day
 - Peak/off-peak split uses a standard fixed definition (weekdays 07:00–19:00) rather than testing alternative windows
-- The 24 June spike investigation used a single data point; a systematic look at all high-price periods would give a more robust view of what drives extremes
 
 ## How to run
 
