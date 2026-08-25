@@ -29,8 +29,9 @@ It occurred at 19:30 on 23 June, with renewable generation close to the two-mont
 
 ## Visualizations
 
-- `daily_price.png` — daily average price, June–July 2026
-- `price_vs_renewables.png` — price vs. total renewable generation, all half-hourly periods
+![Daily average price, June–July 2026](daily_price.png)
+
+![Price vs. total renewable generation](price_vs_renewables.png)
 
 ## Limitations / next steps
 
