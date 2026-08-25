@@ -43,5 +43,5 @@ The two-month maximum was £560.81/MWh at 19:30 on 23 June — and 9 of the 10 h
 ## How to run
 
 1. Install dependencies: `pip install pandas requests matplotlib`
-2. Open `analysis.ipynb` in Jupyter or Google Colab
+2. Open `power_price_analysis.ipynb` in Jupyter or Google Colab
 3. Run cells in order — the notebook fetches data live from Elexon's public API
