@@ -24,8 +24,8 @@ Across ~2,930 half-hourly periods (June–July 2026), day-ahead price and total 
 **2. Off-peak prices were, on average, higher than peak prices — the opposite of the conventional assumption.**
 Using a standard peak definition (weekdays, 07:00–19:00), average peak-hour price was **£7.76/MWh lower** than off-peak. This traces back to finding 1: solar generation is concentrated almost entirely within the defined peak window (average 7,777 MW during peak vs. 2,215 MW off-peak), so cheap solar is suppressing prices during the hours that would traditionally carry a demand premium.
 
-**3. Nine of the ten highest half-hourly prices in the dataset occurred on a single evening.**
-The two-month maximum was £560.81/MWh at 19:30 on 23 June — and 9 of the 10 highest prices overall fall between 17:00 and 21:00 that same evening, with renewable generation in a normal range throughout (roughly 6,700–13,300 MW, not an extreme low). This points to a demand-driven event specific to that evening rather than a general pattern of renewables scarcity driving extreme prices. England played a 9pm World Cup match that evening, which is a plausible contributing factor to elevated early-evening demand — though price had already begun falling by kick-off, and this hasn't been tested against actual demand data, so it remains a hypothesis rather than a confirmed cause. It's a useful reminder that the -0.60 correlation is real but partial: price is driven by more than renewable supply alone, and daily averages can mask what's actually happening within a day.
+**3. Nine of the ten highest half-hourly prices in the dataset occurred on a single evening, which was also by far the most volatile day in the dataset.**
+The two-month maximum was £560.81/MWh at 19:30 on 23 June — 9 of the 10 highest prices overall fall between 17:00 and 21:00 that same evening. Daily price volatility (standard deviation) on 23 June was £137.30, more than double the next-highest day (£62.91 on 25 July), and June overall was more volatile than July (£47.31 vs £40.69). This coincides with a widely-reported UK grid event: low wind generation combined with fading solar output and heatwave-driven evening demand pushed the system into serious strain that evening, prompting the system operator to cut electricity exports and issue an emergency supply call. Day-ahead prices are set the day before delivery based on forecast conditions, so this spike likely reflects the market anticipating that tightness in advance, rather than reacting to the same-day grid emergency directly — a distinct but related mechanism. It's a useful reminder that the -0.60 correlation is real but partial: price is driven by more than renewable supply alone, and daily averages can mask what's actually happening within a day.
 
 ## Visualizations
 
@@ -36,7 +36,8 @@ The two-month maximum was £560.81/MWh at 19:30 on 23 June — and 9 of the 10 h
 ## Limitations / next steps
 
 - Two months of data from one summer period — seasonal patterns (e.g. winter demand, different solar output) aren't captured
-- No demand data included yet; adding it would allow renewable supply and demand — and potential one-off demand events like major sporting fixtures — to be tested as separate, comparable drivers rather than inferring demand from time of day
+- No demand data included yet; adding it would allow renewable supply and demand to be tested as separate, comparable drivers rather than inferring demand from time of day
+- The 23 June explanation is based on independent news reporting of grid conditions that day, not on demand or grid-frequency data pulled directly into this analysis
 - Peak/off-peak split uses a standard fixed definition (weekdays 07:00–19:00) rather than testing alternative windows
 
 ## How to run
